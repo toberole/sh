@@ -1,0 +1,11 @@
+set(CMAKE_SYSTEM_NAME Android)
+
+set(CMAKE_SYSTEM_VERSION 21)
+set(CMAKE_ANDROID_ARCH_ABI arm64-v8a)
+set(CMAKE_ANDROID_NDK /home/linuxer/apps/android-ndk-r16b)
+set(CMAKE_ANDROID_STL_TYPE c++_static)
+set(CMAKE_ANDROID_NDK_TOOLCHAIN_VERSION clang)
+
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=gnu99 -s -O3 -w")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIE")
+#set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fPIE -pie -s -O3 -w")
